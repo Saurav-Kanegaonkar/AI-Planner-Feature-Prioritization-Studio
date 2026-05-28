@@ -1,0 +1,26 @@
+entity_id,entity_name,segment,priority_score,avg_risk_score,avg_quality_score,estimated_impact
+AIF016,AI feature 16,Strategic,106.46,53.0,78.2,933079
+AIF019,AI feature 19,Strategic,97.27,51.2,79.6,826295
+AIF022,AI feature 22,Strategic,93.36,47.5,82.0,814184
+AIF027,AI feature 27,Watch,90.27,51.7,78.2,717385
+AIF034,AI feature 34,Core,89.13,50.5,81.1,724929
+AIF004,AI feature 4,Watch,87.55,50.1,79.9,700364
+AIF033,AI feature 33,Growth,84.69,47.7,81.3,688408
+AIF015,AI feature 15,Strategic,83.38,52.4,83.0,636216
+AIF010,AI feature 10,Growth,82.99,50.5,80.2,634625
+AIF028,AI feature 28,Strategic,82.11,49.0,80.7,638151
+AIF025,AI feature 25,Core,81.50,50.7,80.1,612303
+AIF012,AI feature 12,Growth,81.09,50.6,79.5,604473
+AIF031,AI feature 31,Watch,80.03,52.6,81.5,581168
+AIF008,AI feature 8,Watch,79.90,50.9,80.6,589735
+AIF009,AI feature 9,Growth,79.67,51.2,81.5,587807
+AIF003,AI feature 3,Watch,78.51,50.8,82.5,580251
+AIF014,AI feature 14,Growth,78.43,45.5,81.7,621297
+AIF035,AI feature 35,Growth,78.30,48.4,80.3,587807
+AIF001,AI feature 1,Growth,78.25,52.0,81.5,561359
+AIF011,AI feature 11,Strategic,77.28,48.9,80.6,570291
+AIF002,AI feature 2,Strategic,76.57,51.4,81.0,540462
+AIF026,AI feature 26,Core,76.21,50.1,80.1,542608
+AIF018,AI feature 18,Watch,75.68,51.8,80.8,524044
+AIF023,AI feature 23,Watch,72.99,50.0,80.1,498686
+AIF024,AI feature 24,Core,72.81,50.1,80.9,499169
