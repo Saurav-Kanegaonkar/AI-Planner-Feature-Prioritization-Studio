@@ -6,24 +6,134 @@
   <title>AI Planner Feature Prioritization Studio</title>
   <link rel="stylesheet" href="src/styles.css">
 </head>
-<body class="ai-discovery" style="--accent:#7c3aed;--bg:#f7f2ff">
-  <main class="ai-shell">
-    <header class="ai-hero">
-      <p>AI product discovery studio</p>
-      <h1>AI Planner Feature Prioritization Studio</h1>
-      <span>Blends interview evidence, community feedback, product telemetry, competitive research, and prompt-test notes into PRD-ready choices.</span>
-    </header>
-    <section class="prd-grid">
-      <article class="memo"><b>01</b><h2>User Pull</h2><p>Power users want faster ideation, but community threads show low tolerance for black-box creative controls.</p></article>
-      <article class="memo"><b>02</b><h2>Edge Cases</h2><p>Prompt ambiguity, asset ownership, and revision memory are the highest-risk requirements before launch.</p></article>
-      <article class="memo"><b>03</b><h2>Roadmap Bet</h2><p>Ship a narrow feedback loop around saved prompts before expanding into a broader creative workflow suite.</p></article>
+<body>
+  <main class="shell">
+    <section class="hero" id="command-center">
+      <div>
+        <p class="eyebrow">AI product roadmap studio</p>
+        <h1>AI Planner Feature Prioritization Studio</h1>
+        <p class="dek">A product decision artifact for ranking AI planner bets, turning evidence into PRD cards, validating model quality, and clearing trust gates before launch.</p>
+      </div>
+      <aside class="hero-decision" id="heroDecision" aria-live="polite"></aside>
     </section>
-    <section class="experiment-wall">
-      <h2>Launch Readout</h2>
-      <div><span>Activation lift</span><strong>+20%</strong></div>
-      <div><span>Escalation risk</span><strong>-21%</strong></div>
-      <div><span>Research hours</span><strong>-18</strong></div>
+
+    <section class="metrics" id="metricGrid" aria-label="Portfolio summary"></section>
+
+    <section class="surface command-surface">
+      <div class="surface-heading">
+        <div>
+          <p class="eyebrow">Surface 1</p>
+          <h2>Product Command Center</h2>
+        </div>
+        <p>Prioritizes AI planner features with a transparent score that balances reach, conversion lift, retention lift, model readiness, evidence, effort, and trust risk.</p>
+      </div>
+      <div class="split">
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Opportunity</th>
+                <th>Lane</th>
+                <th>Priority</th>
+                <th>RICE</th>
+                <th>Model</th>
+                <th>Privacy</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="opportunityRows"></tbody>
+          </table>
+        </div>
+        <aside class="detail-panel" id="featureDetail"></aside>
+      </div>
+    </section>
+
+    <section class="surface" id="prd-studio">
+      <div class="surface-heading">
+        <div>
+          <p class="eyebrow">Surface 2</p>
+          <h2>PRD Studio</h2>
+        </div>
+        <p>Converts research, support, app review, survey, and experiment evidence into requirements a product, design, ML, and engineering team could groom.</p>
+      </div>
+      <div class="card-grid" id="prdGrid"></div>
+    </section>
+
+    <section class="surface" id="model-lab">
+      <div class="surface-heading">
+        <div>
+          <p class="eyebrow">Surface 3</p>
+          <h2>Model Quality Lab</h2>
+        </div>
+        <p>Reviews the evaluation evidence that decides whether an AI feature should launch, continue model work, or add stronger human fallback.</p>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>Eval set</th>
+              <th>Offline</th>
+              <th>Human</th>
+              <th>Error</th>
+              <th>Fairness</th>
+              <th>Latency</th>
+              <th>Decision</th>
+            </tr>
+          </thead>
+          <tbody id="modelRows"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="surface" id="experiment-lab">
+      <div class="surface-heading">
+        <div>
+          <p class="eyebrow">Surface 4</p>
+          <h2>Experiment Design</h2>
+        </div>
+        <p>Frames each AI planner bet as a measurable launch decision with a primary KPI, guardrail, sample plan, minimum detectable lift, and ship rule.</p>
+      </div>
+      <div class="card-grid" id="experimentGrid"></div>
+    </section>
+
+    <section class="surface" id="trust-review">
+      <div class="surface-heading">
+        <div>
+          <p class="eyebrow">Surface 5</p>
+          <h2>Trust Review</h2>
+        </div>
+        <p>Keeps privacy, consent, retention, monitoring, and human fallback visible so roadmap decisions do not outrun responsible AI controls.</p>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>Sensitivity</th>
+              <th>Consent</th>
+              <th>Retention</th>
+              <th>Risk</th>
+              <th>Gate</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody id="trustRows"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="surface" id="telemetry">
+      <div class="surface-heading">
+        <div>
+          <p class="eyebrow">Synthetic telemetry</p>
+          <h2>Weekly AI Completion Signal</h2>
+        </div>
+        <p><span id="sourceCount">0</span> generated weekly rows support the scoring model and make the prioritization logic reproducible.</p>
+      </div>
+      <div class="spark-grid" id="sparkGrid"></div>
     </section>
   </main>
+  <script type="module" src="src/app.js"></script>
 </body>
 </html>

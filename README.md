@@ -1,33 +1,68 @@
 # AI Planner Feature Prioritization Studio
 
-I built this because AI planner product discovery, model performance, and user impact prioritization needs more than a dashboard: it needs a decision artifact that connects source data, analysis, and next actions.
+An interactive AI product management portfolio artifact for a multi-app mobile subscription ecosystem building a personal and entrepreneurial resource planner. The studio shows how an AI Product Manager can turn user evidence, product telemetry, model evaluation, experiment design, and trust review into a roadmap decision.
 
-![AI Planner Feature Prioritization Studio](docs/images/dashboard.png)
+## What this project demonstrates
 
-## What this project is
+- AI product roadmap prioritization across productivity, documents, finance, education, wellness, security, communication, creative, and utility workflows.
+- PRD-ready requirement cards that translate ambiguous AI capabilities into user problems, acceptance criteria, metrics, and validation plans.
+- Model quality review for NLP, recommendation, classification, generative, and computer vision features.
+- Experiment and launch readiness logic with guardrail metrics, sample plans, privacy controls, consent requirements, and human fallback paths.
 
-This project is a lab for AI planner product discovery, model performance, and user impact prioritization. It uses synthetic but workflow-shaped data to rank AI feature-level risks and convert the output into stakeholder-ready recommendations.
+## Screenshots
 
-## Data sources
+![Product command center](docs/images/command-center.png)
 
-- `entities.csv` - 36 AI feature records
-- `daily_metrics.csv` - 5,040 daily operating rows
-- `source_events.csv` - 760 event, exception, QA, and stakeholder-request records
-- `recommended_actions.csv` - 220 action candidates
+Product command center: ranks AI planner opportunities by user evidence, business value, model readiness, privacy risk, effort, and launch gate.
 
-## Analysis outputs
+![PRD studio](docs/images/prd-studio.png)
 
-- `analysis/executive_findings.md`
-- `analysis/analysis_plan.md`
-- `analysis/sql_checks.sql`
-- `analysis/outputs/priority_queue.csv`
+PRD studio: turns research themes into requirement cards with user stories, acceptance criteria, instrumentation, and validation plans.
 
-## Recommendation
+![Model quality lab](docs/images/model-trust-lab.png)
 
-Use the priority queue to focus stakeholder attention on the AI feature segments where performance upside, measurement risk, and operational readiness overlap.
+Model quality lab: reviews model evaluation evidence, human acceptance, error rate, fairness gap, latency, and launch decision before scale.
+
+## Data
+
+All data is deterministic synthetic data generated for this public portfolio artifact. It does not represent any real company, user, app, subscription, model, or operating performance.
+
+The generator models a multi-app mobile subscription ecosystem where:
+
+- Productivity and document workflows tend to have larger reachable audiences.
+- Finance, security, and cross-app workflows carry higher privacy and consent risk.
+- Generative and computer vision workflows carry higher model complexity and evaluation risk.
+- Recommendation and planning workflows receive stronger near-term roadmap weight when evidence and data quality are high.
+- Weekly metrics are generated with controlled variance for adoption, conversion lift, retention lift, completion, accuracy, latency, escalation, and data quality.
+
+Run `npm run analyze` to regenerate the data and analysis outputs with the fixed random seed.
+
+## Project structure
+
+| Path | Purpose |
+|---|---|
+| `index.html` | Static app shell. |
+| `src/app.js` | Interactive product decision studio powered by generated JSON. |
+| `src/styles.css` | Responsive application styling. |
+| `scripts/score_operating_data.py` | Deterministic synthetic data generator and scoring model. |
+| `scripts/capture_screenshots.mjs` | Screenshot capture for the README. |
+| `data/` | Synthetic source datasets. |
+| `analysis/outputs/` | Scored roadmap, PRD, model, experiment, trust, and app payload outputs. |
+| `analysis/` | Analysis plan, methodology, SQL checks, and executive findings. |
+
+## Role connection
+
+This artifact demonstrates the work expected from an AI Product Manager: define an AI roadmap, translate AI and ML concepts into user-facing product requirements, partner with data science and engineering on model quality, define KPIs, design experiments, and keep privacy and ethical AI controls visible before launch.
 
 ## Run locally
 
 ```bash
-python3 -m http.server 4173
+npm run analyze
+npm start
 ```
+
+Then open `http://127.0.0.1:4173`.
+
+## Scope
+
+This is a static public portfolio artifact with reproducible synthetic data and transparent scoring logic. It does not connect to live app analytics, subscription systems, model endpoints, experiment platforms, privacy tooling, support tickets, app stores, or production user data. It shows how an AI product manager could structure a defensible decision workflow before implementation in production systems.

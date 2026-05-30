@@ -1,17 +1,29 @@
--- Priority queue foundation
-select
-  entity_id,
-  avg(risk_score) as avg_risk_score,
-  avg(quality_score) as avg_quality_score,
-  sum(value_pool) as value_pool
-from daily_metrics
-group by 1
-order by avg_risk_score desc;
+-- SQL checks mirror the synthetic CSV outputs in this public portfolio artifact.
+-- They are written as portable validation logic for review, not tied to a live warehouse.
 
--- Action readiness
+-- Check 1: every opportunity has 12 weekly metric rows.
 select
-  action_type,
-  avg(expected_lift_pct) as expected_lift,
-  avg(effort_hours) as effort_hours
-from recommended_actions
-group by 1;
+  feature_id,
+  count(*) as week_count
+from weekly_product_metrics
+group by feature_id
+having count(*) <> 12;
+
+-- Check 2: no model readiness score falls outside the scoring range.
+select *
+from model_evaluations
+where model_readiness < 0
+   or model_readiness > 100;
+
+-- Check 3: high privacy risk features must have explicit consent or review.
+select *
+from trust_controls
+where privacy_risk_score >= 70
+  and consent_requirement not in ('Required')
+  and review_status not like '%review%';
+
+-- Check 4: experiment-ready features must include a guardrail metric.
+select *
+from experiment_plans
+where guardrail_metric is null
+   or trim(guardrail_metric) = '';

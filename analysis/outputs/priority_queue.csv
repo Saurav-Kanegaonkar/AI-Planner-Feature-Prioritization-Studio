@@ -1,26 +1,13 @@
-entity_id,entity_name,segment,priority_score,avg_risk_score,avg_quality_score,estimated_impact
-AIF016,AI feature 16,Strategic,106.46,53.0,78.2,933079
-AIF019,AI feature 19,Strategic,97.27,51.2,79.6,826295
-AIF022,AI feature 22,Strategic,93.36,47.5,82.0,814184
-AIF027,AI feature 27,Watch,90.27,51.7,78.2,717385
-AIF034,AI feature 34,Core,89.13,50.5,81.1,724929
-AIF004,AI feature 4,Watch,87.55,50.1,79.9,700364
-AIF033,AI feature 33,Growth,84.69,47.7,81.3,688408
-AIF015,AI feature 15,Strategic,83.38,52.4,83.0,636216
-AIF010,AI feature 10,Growth,82.99,50.5,80.2,634625
-AIF028,AI feature 28,Strategic,82.11,49.0,80.7,638151
-AIF025,AI feature 25,Core,81.50,50.7,80.1,612303
-AIF012,AI feature 12,Growth,81.09,50.6,79.5,604473
-AIF031,AI feature 31,Watch,80.03,52.6,81.5,581168
-AIF008,AI feature 8,Watch,79.90,50.9,80.6,589735
-AIF009,AI feature 9,Growth,79.67,51.2,81.5,587807
-AIF003,AI feature 3,Watch,78.51,50.8,82.5,580251
-AIF014,AI feature 14,Growth,78.43,45.5,81.7,621297
-AIF035,AI feature 35,Growth,78.30,48.4,80.3,587807
-AIF001,AI feature 1,Growth,78.25,52.0,81.5,561359
-AIF011,AI feature 11,Strategic,77.28,48.9,80.6,570291
-AIF002,AI feature 2,Strategic,76.57,51.4,81.0,540462
-AIF026,AI feature 26,Core,76.21,50.1,80.1,542608
-AIF018,AI feature 18,Watch,75.68,51.8,80.8,524044
-AIF023,AI feature 23,Watch,72.99,50.0,80.1,498686
-AIF024,AI feature 24,Core,72.81,50.1,80.9,499169
+feature_id,feature_name,domain,target_segment,ai_method,roadmap_lane,priority_score,rice_score,confidence,active_users,conversion_lift_pp,retention_lift_pp,model_readiness,privacy_risk_score,effort,launch_gate,recommended_action,user_problem,primary_kpi,owner
+AIP004,Smart task decomposition,Productivity,Students and professionals,NLP planning assistant,Now,98.5,26.91,0.87,157330,5.18,3.59,87.9,44,42,Experiment ready,Ship controlled beta,Large goals stall because users do not know the next concrete action or realistic sequence.,Goal to first action rate,Product and Design
+AIP002,Entrepreneur launch checklist,Entrepreneurship,Solo founders,NLP planning assistant,Now,95.5,18.28,0.85,124041,5.14,3.68,85.7,48,47,PRD ready,Ship controlled beta,"First-time builders need a practical sequence for market research, launch assets, and financial setup.",Checklist activation rate,Product and Design
+AIP001,Daily resource planner,Productivity,Busy professionals,Recommendation system,Now,93.1,18.78,0.86,163558,4.93,3.84,85.9,55,58,Experiment ready,Ship controlled beta,"Users need one ranked plan that blends calendar pressure, tasks, document deadlines, and personal routines.",Weekly planned task completion,Product and ML
+AIP007,Learning plan generator,Education,Language learners,Recommendation system,Next,82.1,13.14,0.8,123425,4.41,3.13,82.4,42,55,Experiment ready,Ship controlled beta,"Learners need an adaptive sequence that responds to weak skills, daily availability, and motivation dips.",Seven day lesson streak,Product and Data Science
+AIP005,Cross-app morning brief,Ecosystem,Subscription power users,Recommendation system,Now,81.2,11.83,0.77,152819,5.75,2.67,77.1,68,63,Consent copy,Ship controlled beta,"Users miss value across apps because tasks, habits, documents, spend, and learning reminders are fragmented.",Multi-app weekly engagement,Growth Product
+AIP003,Document to action extractor,Documents,Mobile office users,NLP extraction,Now,76.6,10.95,0.78,143043,4.58,3.77,78.4,74,69,Privacy review,Ship controlled beta,"Scanned PDFs, receipts, and forms often contain dates and obligations that never become tasks.",Extracted action acceptance,"Product, ML, and Data"
+AIP011,Translation context memory,Communication,Travel and work users,NLP personalization,Next,75.8,13.43,0.79,130794,4.56,2.89,78.9,60,52,Consent copy,Resolve launch gate,"Repeated translations lose context when users move between travel, work, and learning situations.",Repeat translation satisfaction,Product and ML
+AIP008,Habit recovery coach,Wellness,Habit builders,NLP coaching assistant,Next,74.1,14.64,0.8,110530,3.95,3.24,81.9,66,44,Content safety,Resolve launch gate,Users churn after broken streaks because the app does not help them recover without shame or overload.,Recovered streak rate,Product and Design
+AIP010,Image based plant care planner,Utility,Home care users,Computer vision,Later,72.8,7.88,0.72,83729,4.07,3.13,73.8,32,61,Model eval,Resolve launch gate,Users can identify plants but need a care plan that turns recognition into reminders and supply lists.,Care plan save rate,Product and ML
+AIP012,Design brief to asset plan,Creative,Small business creators,Generative assistant,Later,66.8,6.81,0.72,84743,4.02,2.77,72.9,52,67,Brand safety,Keep in discovery,Creators can generate designs but struggle to convert campaign goals into an asset sequence.,Asset plan completion,Creative Product
+AIP006,Receipt and budget deadline advisor,Finance,Household planners,Classification and forecasting,Next,62.2,6.35,0.75,92422,4.41,3.29,72.8,88,72,Compliance review,Keep in discovery,"Users forget subscription renewals, bill dates, and reimbursement tasks after scanning receipts or invoices.",Avoided missed deadline rate,"Product, ML, and Compliance"
+AIP009,Secure password task reminders,Security,Family admins,Rules plus classification,Later,53.9,5.12,0.71,63056,4.06,2.72,71.6,92,66,Security review,Keep in discovery,Users need privacy-preserving reminders for expiring credentials and shared account hygiene.,Security task completion,Security Product

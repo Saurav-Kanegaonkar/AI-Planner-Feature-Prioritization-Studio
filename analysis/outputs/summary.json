@@ -1,0 +1,29 @@
+{
+  "feature_count": 12,
+  "top_feature": {
+    "feature_id": "AIP004",
+    "feature_name": "Smart task decomposition",
+    "domain": "Productivity",
+    "target_segment": "Students and professionals",
+    "ai_method": "NLP planning assistant",
+    "roadmap_lane": "Now",
+    "priority_score": 98.5,
+    "rice_score": 26.91,
+    "confidence": 0.87,
+    "active_users": 157330,
+    "conversion_lift_pp": 5.18,
+    "retention_lift_pp": 3.59,
+    "model_readiness": 87.9,
+    "privacy_risk_score": 44,
+    "effort": 42,
+    "launch_gate": "Experiment ready",
+    "recommended_action": "Ship controlled beta",
+    "user_problem": "Large goals stall because users do not know the next concrete action or realistic sequence.",
+    "primary_kpi": "Goal to first action rate",
+    "owner": "Product and Design"
+  },
+  "ready_experiments": 9,
+  "launch_blockers": 2,
+  "avg_model_readiness": 79.1,
+  "avg_priority_score": 77.7
+}

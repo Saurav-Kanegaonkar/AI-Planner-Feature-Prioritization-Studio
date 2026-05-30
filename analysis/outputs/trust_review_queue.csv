@@ -1,0 +1,13 @@
+feature_id,feature_name,data_sensitivity,consent_requirement,retention_policy,human_fallback,monitoring_plan,privacy_risk_score,launch_blocker,review_status
+AIP009,Secure password task reminders,High,Required,30 day rolling window,Low confidence outputs route to editable draft,"Weekly review of accuracy, escalation, latency, and opt out rate",92,Yes,Security review
+AIP006,Receipt and budget deadline advisor,High,Required,30 day rolling window,Low confidence outputs route to editable draft,"Weekly review of accuracy, escalation, latency, and opt out rate",88,Yes,Compliance review
+AIP003,Document to action extractor,High,Required,30 day rolling window,Low confidence outputs route to editable draft,"Weekly review of accuracy, escalation, latency, and opt out rate",74,No,Privacy review
+AIP005,Cross-app morning brief,High,Required,30 day rolling window,Low confidence outputs route to editable draft,"Weekly review of accuracy, escalation, latency, and opt out rate",68,No,Consent copy
+AIP008,Habit recovery coach,Moderate,Required,90 day rolling window,Low confidence outputs route to editable draft,"Weekly review of accuracy, escalation, latency, and opt out rate",66,No,Content safety
+AIP011,Translation context memory,Moderate,Required,90 day rolling window,Low confidence outputs route to editable draft,"Weekly review of accuracy, escalation, latency, and opt out rate",60,No,Consent copy
+AIP001,Daily resource planner,Moderate,Contextual notice,90 day rolling window,Low confidence outputs route to editable draft,"Weekly review of accuracy, escalation, latency, and opt out rate",55,No,Experiment ready
+AIP012,Design brief to asset plan,Moderate,Contextual notice,90 day rolling window,Low confidence outputs route to editable draft,"Weekly review of accuracy, escalation, latency, and opt out rate",52,No,Brand safety
+AIP002,Entrepreneur launch checklist,Moderate,Contextual notice,90 day rolling window,Low confidence outputs route to editable draft,"Weekly review of accuracy, escalation, latency, and opt out rate",48,No,PRD ready
+AIP004,Smart task decomposition,Low,Contextual notice,90 day rolling window,Low confidence outputs route to editable draft,"Weekly review of accuracy, escalation, latency, and opt out rate",44,No,Experiment ready
+AIP007,Learning plan generator,Low,Contextual notice,90 day rolling window,Low confidence outputs route to editable draft,"Weekly review of accuracy, escalation, latency, and opt out rate",42,No,Experiment ready
+AIP010,Image based plant care planner,Low,Contextual notice,90 day rolling window,Low confidence outputs route to editable draft,"Weekly review of accuracy, escalation, latency, and opt out rate",32,No,Model eval

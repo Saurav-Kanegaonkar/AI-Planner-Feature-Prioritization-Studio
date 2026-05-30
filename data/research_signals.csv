@@ -1,0 +1,157 @@
+signal_id,feature_id,source,theme,sentiment,severity,evidence_weight,note
+SIG0001,AIP001,Competitive teardown,Let users edit the plan,Negative,Medium,88.8,Competitive teardown highlights that let users edit the plan matters for busy professionals.
+SIG0002,AIP001,Competitive teardown,Instrument outcome quality,Request,Medium,98,Competitive teardown highlights that instrument outcome quality matters for busy professionals.
+SIG0003,AIP001,Competitive teardown,Let users edit the plan,Positive,High,95.2,Competitive teardown highlights that let users edit the plan matters for busy professionals.
+SIG0004,AIP001,Support ticket cluster,Handle ambiguous inputs,Positive,Medium,95.3,Support ticket cluster highlights that handle ambiguous inputs matters for busy professionals.
+SIG0005,AIP001,Experiment note,Escalate low confidence outputs,Request,High,86.2,Experiment note highlights that escalate low confidence outputs matters for busy professionals.
+SIG0006,AIP001,In-app survey,Explain the recommendation,Request,Low,89.9,In-app survey highlights that explain the recommendation matters for busy professionals.
+SIG0007,AIP001,In-app survey,Instrument outcome quality,Negative,High,89.3,In-app survey highlights that instrument outcome quality matters for busy professionals.
+SIG0008,AIP001,App store review theme,Let users edit the plan,Negative,Low,91.8,App store review theme highlights that let users edit the plan matters for busy professionals.
+SIG0009,AIP001,Experiment note,Instrument outcome quality,Negative,Medium,93.7,Experiment note highlights that instrument outcome quality matters for busy professionals.
+SIG0010,AIP001,Support ticket cluster,Handle ambiguous inputs,Request,Medium,98,Support ticket cluster highlights that handle ambiguous inputs matters for busy professionals.
+SIG0011,AIP001,Experiment note,Instrument outcome quality,Positive,Low,78.3,Experiment note highlights that instrument outcome quality matters for busy professionals.
+SIG0012,AIP001,App store review theme,Let users edit the plan,Negative,Medium,79.2,App store review theme highlights that let users edit the plan matters for busy professionals.
+SIG0013,AIP001,User interview,Ask consent before cross-app use,Mixed,Low,80.7,User interview highlights that ask consent before cross-app use matters for busy professionals.
+SIG0014,AIP001,Competitive teardown,Handle ambiguous inputs,Negative,Medium,81.2,Competitive teardown highlights that handle ambiguous inputs matters for busy professionals.
+SIG0015,AIP001,User interview,Let users edit the plan,Positive,High,81.7,User interview highlights that let users edit the plan matters for busy professionals.
+SIG0016,AIP001,App store review theme,Let users edit the plan,Negative,Medium,98,App store review theme highlights that let users edit the plan matters for busy professionals.
+SIG0017,AIP002,Experiment note,Escalate low confidence outputs,Mixed,Medium,92.9,Experiment note highlights that escalate low confidence outputs matters for solo founders.
+SIG0018,AIP002,Competitive teardown,Handle ambiguous inputs,Mixed,Low,67.5,Competitive teardown highlights that handle ambiguous inputs matters for solo founders.
+SIG0019,AIP002,App store review theme,Instrument outcome quality,Mixed,Low,91.1,App store review theme highlights that instrument outcome quality matters for solo founders.
+SIG0020,AIP002,User interview,Let users edit the plan,Request,Low,98,User interview highlights that let users edit the plan matters for solo founders.
+SIG0021,AIP002,Support ticket cluster,Explain the recommendation,Mixed,High,98,Support ticket cluster highlights that explain the recommendation matters for solo founders.
+SIG0022,AIP002,Support ticket cluster,Escalate low confidence outputs,Mixed,High,91.1,Support ticket cluster highlights that escalate low confidence outputs matters for solo founders.
+SIG0023,AIP002,Experiment note,Explain the recommendation,Request,Medium,98,Experiment note highlights that explain the recommendation matters for solo founders.
+SIG0024,AIP002,In-app survey,Let users edit the plan,Negative,High,95.1,In-app survey highlights that let users edit the plan matters for solo founders.
+SIG0025,AIP002,User interview,Ask consent before cross-app use,Request,Medium,72.5,User interview highlights that ask consent before cross-app use matters for solo founders.
+SIG0026,AIP002,App store review theme,Ask consent before cross-app use,Request,Low,91.3,App store review theme highlights that ask consent before cross-app use matters for solo founders.
+SIG0027,AIP003,Competitive teardown,Escalate low confidence outputs,Mixed,Low,74.4,Competitive teardown highlights that escalate low confidence outputs matters for mobile office users.
+SIG0028,AIP003,Competitive teardown,Explain the recommendation,Mixed,Low,98,Competitive teardown highlights that explain the recommendation matters for mobile office users.
+SIG0029,AIP003,Experiment note,Ask consent before cross-app use,Mixed,Low,65.5,Experiment note highlights that ask consent before cross-app use matters for mobile office users.
+SIG0030,AIP003,App store review theme,Let users edit the plan,Negative,Medium,96.4,App store review theme highlights that let users edit the plan matters for mobile office users.
+SIG0031,AIP003,User interview,Handle ambiguous inputs,Positive,Low,84.6,User interview highlights that handle ambiguous inputs matters for mobile office users.
+SIG0032,AIP003,Experiment note,Handle ambiguous inputs,Mixed,Medium,65.7,Experiment note highlights that handle ambiguous inputs matters for mobile office users.
+SIG0033,AIP003,Support ticket cluster,Ask consent before cross-app use,Negative,Low,57.2,Support ticket cluster highlights that ask consent before cross-app use matters for mobile office users.
+SIG0034,AIP003,Experiment note,Let users edit the plan,Positive,Low,88.8,Experiment note highlights that let users edit the plan matters for mobile office users.
+SIG0035,AIP003,Support ticket cluster,Escalate low confidence outputs,Positive,High,78.7,Support ticket cluster highlights that escalate low confidence outputs matters for mobile office users.
+SIG0036,AIP003,Support ticket cluster,Explain the recommendation,Negative,High,86.9,Support ticket cluster highlights that explain the recommendation matters for mobile office users.
+SIG0037,AIP003,Support ticket cluster,Handle ambiguous inputs,Request,Low,90.5,Support ticket cluster highlights that handle ambiguous inputs matters for mobile office users.
+SIG0038,AIP003,App store review theme,Ask consent before cross-app use,Negative,Medium,93.6,App store review theme highlights that ask consent before cross-app use matters for mobile office users.
+SIG0039,AIP003,User interview,Escalate low confidence outputs,Mixed,High,74.1,User interview highlights that escalate low confidence outputs matters for mobile office users.
+SIG0040,AIP003,User interview,Instrument outcome quality,Positive,Medium,77.4,User interview highlights that instrument outcome quality matters for mobile office users.
+SIG0041,AIP003,Experiment note,Instrument outcome quality,Positive,Low,98,Experiment note highlights that instrument outcome quality matters for mobile office users.
+SIG0042,AIP003,Competitive teardown,Handle ambiguous inputs,Request,Medium,78.4,Competitive teardown highlights that handle ambiguous inputs matters for mobile office users.
+SIG0043,AIP004,App store review theme,Let users edit the plan,Mixed,Medium,93.2,App store review theme highlights that let users edit the plan matters for students and professionals.
+SIG0044,AIP004,App store review theme,Escalate low confidence outputs,Request,Medium,85.6,App store review theme highlights that escalate low confidence outputs matters for students and professionals.
+SIG0045,AIP004,Experiment note,Instrument outcome quality,Request,High,86.9,Experiment note highlights that instrument outcome quality matters for students and professionals.
+SIG0046,AIP004,Competitive teardown,Let users edit the plan,Request,High,81.4,Competitive teardown highlights that let users edit the plan matters for students and professionals.
+SIG0047,AIP004,App store review theme,Explain the recommendation,Negative,Medium,98,App store review theme highlights that explain the recommendation matters for students and professionals.
+SIG0048,AIP004,User interview,Ask consent before cross-app use,Positive,Medium,87.0,User interview highlights that ask consent before cross-app use matters for students and professionals.
+SIG0049,AIP004,Competitive teardown,Handle ambiguous inputs,Mixed,Low,94.8,Competitive teardown highlights that handle ambiguous inputs matters for students and professionals.
+SIG0050,AIP004,Support ticket cluster,Instrument outcome quality,Mixed,Medium,86.0,Support ticket cluster highlights that instrument outcome quality matters for students and professionals.
+SIG0051,AIP004,Experiment note,Escalate low confidence outputs,Request,Medium,65.8,Experiment note highlights that escalate low confidence outputs matters for students and professionals.
+SIG0052,AIP004,User interview,Handle ambiguous inputs,Mixed,Low,89.4,User interview highlights that handle ambiguous inputs matters for students and professionals.
+SIG0053,AIP004,User interview,Let users edit the plan,Mixed,Low,95.9,User interview highlights that let users edit the plan matters for students and professionals.
+SIG0054,AIP004,User interview,Instrument outcome quality,Negative,Low,85.9,User interview highlights that instrument outcome quality matters for students and professionals.
+SIG0055,AIP004,User interview,Handle ambiguous inputs,Positive,Medium,94.8,User interview highlights that handle ambiguous inputs matters for students and professionals.
+SIG0056,AIP004,App store review theme,Instrument outcome quality,Request,High,74.6,App store review theme highlights that instrument outcome quality matters for students and professionals.
+SIG0057,AIP004,Competitive teardown,Escalate low confidence outputs,Request,Medium,94.0,Competitive teardown highlights that escalate low confidence outputs matters for students and professionals.
+SIG0058,AIP005,Experiment note,Explain the recommendation,Negative,Medium,82.1,Experiment note highlights that explain the recommendation matters for subscription power users.
+SIG0059,AIP005,App store review theme,Handle ambiguous inputs,Mixed,Medium,77.4,App store review theme highlights that handle ambiguous inputs matters for subscription power users.
+SIG0060,AIP005,User interview,Instrument outcome quality,Request,High,78.1,User interview highlights that instrument outcome quality matters for subscription power users.
+SIG0061,AIP005,Experiment note,Ask consent before cross-app use,Positive,Medium,74.7,Experiment note highlights that ask consent before cross-app use matters for subscription power users.
+SIG0062,AIP005,In-app survey,Handle ambiguous inputs,Request,Low,80.7,In-app survey highlights that handle ambiguous inputs matters for subscription power users.
+SIG0063,AIP005,Experiment note,Explain the recommendation,Mixed,Low,84.3,Experiment note highlights that explain the recommendation matters for subscription power users.
+SIG0064,AIP005,Competitive teardown,Let users edit the plan,Negative,High,67.5,Competitive teardown highlights that let users edit the plan matters for subscription power users.
+SIG0065,AIP005,App store review theme,Instrument outcome quality,Negative,Medium,88.3,App store review theme highlights that instrument outcome quality matters for subscription power users.
+SIG0066,AIP005,Experiment note,Ask consent before cross-app use,Positive,Low,91.4,Experiment note highlights that ask consent before cross-app use matters for subscription power users.
+SIG0067,AIP005,Support ticket cluster,Instrument outcome quality,Negative,Low,91.3,Support ticket cluster highlights that instrument outcome quality matters for subscription power users.
+SIG0068,AIP005,Experiment note,Explain the recommendation,Mixed,High,82.7,Experiment note highlights that explain the recommendation matters for subscription power users.
+SIG0069,AIP005,In-app survey,Handle ambiguous inputs,Positive,Low,62.3,In-app survey highlights that handle ambiguous inputs matters for subscription power users.
+SIG0070,AIP006,App store review theme,Handle ambiguous inputs,Mixed,High,89.8,App store review theme highlights that handle ambiguous inputs matters for household planners.
+SIG0071,AIP006,Competitive teardown,Explain the recommendation,Positive,High,97.5,Competitive teardown highlights that explain the recommendation matters for household planners.
+SIG0072,AIP006,Competitive teardown,Let users edit the plan,Request,High,84.6,Competitive teardown highlights that let users edit the plan matters for household planners.
+SIG0073,AIP006,User interview,Let users edit the plan,Request,High,80.3,User interview highlights that let users edit the plan matters for household planners.
+SIG0074,AIP006,In-app survey,Instrument outcome quality,Request,Low,58.2,In-app survey highlights that instrument outcome quality matters for household planners.
+SIG0075,AIP006,User interview,Escalate low confidence outputs,Negative,Medium,87.9,User interview highlights that escalate low confidence outputs matters for household planners.
+SIG0076,AIP006,Experiment note,Let users edit the plan,Positive,Medium,64.4,Experiment note highlights that let users edit the plan matters for household planners.
+SIG0077,AIP006,Support ticket cluster,Let users edit the plan,Negative,High,90.2,Support ticket cluster highlights that let users edit the plan matters for household planners.
+SIG0078,AIP006,In-app survey,Let users edit the plan,Request,High,90.6,In-app survey highlights that let users edit the plan matters for household planners.
+SIG0079,AIP006,Competitive teardown,Handle ambiguous inputs,Positive,Low,77.8,Competitive teardown highlights that handle ambiguous inputs matters for household planners.
+SIG0080,AIP006,In-app survey,Escalate low confidence outputs,Negative,Medium,95.5,In-app survey highlights that escalate low confidence outputs matters for household planners.
+SIG0081,AIP006,In-app survey,Explain the recommendation,Negative,Low,67.4,In-app survey highlights that explain the recommendation matters for household planners.
+SIG0082,AIP006,Support ticket cluster,Escalate low confidence outputs,Positive,High,84.7,Support ticket cluster highlights that escalate low confidence outputs matters for household planners.
+SIG0083,AIP006,App store review theme,Instrument outcome quality,Mixed,High,86.5,App store review theme highlights that instrument outcome quality matters for household planners.
+SIG0084,AIP006,App store review theme,Let users edit the plan,Positive,High,67.2,App store review theme highlights that let users edit the plan matters for household planners.
+SIG0085,AIP006,App store review theme,Let users edit the plan,Positive,Low,96.2,App store review theme highlights that let users edit the plan matters for household planners.
+SIG0086,AIP007,App store review theme,Let users edit the plan,Positive,Medium,86.7,App store review theme highlights that let users edit the plan matters for language learners.
+SIG0087,AIP007,User interview,Let users edit the plan,Positive,High,67.4,User interview highlights that let users edit the plan matters for language learners.
+SIG0088,AIP007,In-app survey,Escalate low confidence outputs,Request,Medium,66.4,In-app survey highlights that escalate low confidence outputs matters for language learners.
+SIG0089,AIP007,Competitive teardown,Let users edit the plan,Positive,Low,81.0,Competitive teardown highlights that let users edit the plan matters for language learners.
+SIG0090,AIP007,User interview,Instrument outcome quality,Mixed,Low,77.9,User interview highlights that instrument outcome quality matters for language learners.
+SIG0091,AIP007,Experiment note,Explain the recommendation,Mixed,High,69.4,Experiment note highlights that explain the recommendation matters for language learners.
+SIG0092,AIP007,Experiment note,Handle ambiguous inputs,Request,Medium,90.1,Experiment note highlights that handle ambiguous inputs matters for language learners.
+SIG0093,AIP007,User interview,Instrument outcome quality,Request,Medium,73.7,User interview highlights that instrument outcome quality matters for language learners.
+SIG0094,AIP007,In-app survey,Explain the recommendation,Positive,Low,67.5,In-app survey highlights that explain the recommendation matters for language learners.
+SIG0095,AIP007,Experiment note,Ask consent before cross-app use,Request,High,74.2,Experiment note highlights that ask consent before cross-app use matters for language learners.
+SIG0096,AIP007,User interview,Explain the recommendation,Negative,Medium,98,User interview highlights that explain the recommendation matters for language learners.
+SIG0097,AIP007,Competitive teardown,Ask consent before cross-app use,Positive,Low,67.8,Competitive teardown highlights that ask consent before cross-app use matters for language learners.
+SIG0098,AIP008,Competitive teardown,Let users edit the plan,Negative,Low,94.9,Competitive teardown highlights that let users edit the plan matters for habit builders.
+SIG0099,AIP008,In-app survey,Let users edit the plan,Mixed,High,71.2,In-app survey highlights that let users edit the plan matters for habit builders.
+SIG0100,AIP008,Competitive teardown,Explain the recommendation,Positive,Medium,69.7,Competitive teardown highlights that explain the recommendation matters for habit builders.
+SIG0101,AIP008,App store review theme,Ask consent before cross-app use,Positive,Low,90.1,App store review theme highlights that ask consent before cross-app use matters for habit builders.
+SIG0102,AIP008,App store review theme,Ask consent before cross-app use,Mixed,Medium,98,App store review theme highlights that ask consent before cross-app use matters for habit builders.
+SIG0103,AIP008,Experiment note,Escalate low confidence outputs,Negative,Medium,87.4,Experiment note highlights that escalate low confidence outputs matters for habit builders.
+SIG0104,AIP008,Competitive teardown,Escalate low confidence outputs,Request,Medium,65.2,Competitive teardown highlights that escalate low confidence outputs matters for habit builders.
+SIG0105,AIP008,App store review theme,Explain the recommendation,Mixed,High,68.0,App store review theme highlights that explain the recommendation matters for habit builders.
+SIG0106,AIP008,App store review theme,Instrument outcome quality,Mixed,High,89.6,App store review theme highlights that instrument outcome quality matters for habit builders.
+SIG0107,AIP008,Experiment note,Let users edit the plan,Negative,Medium,80.3,Experiment note highlights that let users edit the plan matters for habit builders.
+SIG0108,AIP008,App store review theme,Explain the recommendation,Negative,Low,78.0,App store review theme highlights that explain the recommendation matters for habit builders.
+SIG0109,AIP008,Support ticket cluster,Instrument outcome quality,Request,High,71.9,Support ticket cluster highlights that instrument outcome quality matters for habit builders.
+SIG0110,AIP008,Competitive teardown,Let users edit the plan,Negative,High,65.0,Competitive teardown highlights that let users edit the plan matters for habit builders.
+SIG0111,AIP009,In-app survey,Ask consent before cross-app use,Mixed,Low,95.9,In-app survey highlights that ask consent before cross-app use matters for family admins.
+SIG0112,AIP009,Competitive teardown,Explain the recommendation,Mixed,Medium,60.5,Competitive teardown highlights that explain the recommendation matters for family admins.
+SIG0113,AIP009,Competitive teardown,Let users edit the plan,Negative,Medium,52.0,Competitive teardown highlights that let users edit the plan matters for family admins.
+SIG0114,AIP009,Experiment note,Explain the recommendation,Negative,Medium,83.4,Experiment note highlights that explain the recommendation matters for family admins.
+SIG0115,AIP009,Experiment note,Escalate low confidence outputs,Negative,High,65.8,Experiment note highlights that escalate low confidence outputs matters for family admins.
+SIG0116,AIP009,Experiment note,Explain the recommendation,Positive,High,77.6,Experiment note highlights that explain the recommendation matters for family admins.
+SIG0117,AIP009,App store review theme,Instrument outcome quality,Request,Medium,58.3,App store review theme highlights that instrument outcome quality matters for family admins.
+SIG0118,AIP009,In-app survey,Explain the recommendation,Negative,Medium,73.6,In-app survey highlights that explain the recommendation matters for family admins.
+SIG0119,AIP009,App store review theme,Escalate low confidence outputs,Mixed,Low,88.6,App store review theme highlights that escalate low confidence outputs matters for family admins.
+SIG0120,AIP009,User interview,Let users edit the plan,Positive,Medium,61.1,User interview highlights that let users edit the plan matters for family admins.
+SIG0121,AIP009,App store review theme,Instrument outcome quality,Positive,Medium,91.5,App store review theme highlights that instrument outcome quality matters for family admins.
+SIG0122,AIP009,In-app survey,Let users edit the plan,Request,Low,95.5,In-app survey highlights that let users edit the plan matters for family admins.
+SIG0123,AIP009,Support ticket cluster,Let users edit the plan,Positive,High,78.0,Support ticket cluster highlights that let users edit the plan matters for family admins.
+SIG0124,AIP009,Competitive teardown,Escalate low confidence outputs,Positive,High,53.1,Competitive teardown highlights that escalate low confidence outputs matters for family admins.
+SIG0125,AIP009,Competitive teardown,Explain the recommendation,Negative,High,63.5,Competitive teardown highlights that explain the recommendation matters for family admins.
+SIG0126,AIP010,User interview,Handle ambiguous inputs,Request,Low,58.4,User interview highlights that handle ambiguous inputs matters for home care users.
+SIG0127,AIP010,User interview,Handle ambiguous inputs,Positive,Low,67.3,User interview highlights that handle ambiguous inputs matters for home care users.
+SIG0128,AIP010,In-app survey,Ask consent before cross-app use,Request,Medium,70.7,In-app survey highlights that ask consent before cross-app use matters for home care users.
+SIG0129,AIP010,User interview,Handle ambiguous inputs,Positive,Medium,82.8,User interview highlights that handle ambiguous inputs matters for home care users.
+SIG0130,AIP010,Support ticket cluster,Let users edit the plan,Request,Low,73.6,Support ticket cluster highlights that let users edit the plan matters for home care users.
+SIG0131,AIP010,Support ticket cluster,Instrument outcome quality,Mixed,High,56.6,Support ticket cluster highlights that instrument outcome quality matters for home care users.
+SIG0132,AIP010,App store review theme,Escalate low confidence outputs,Negative,High,93.0,App store review theme highlights that escalate low confidence outputs matters for home care users.
+SIG0133,AIP010,Support ticket cluster,Handle ambiguous inputs,Negative,High,79.6,Support ticket cluster highlights that handle ambiguous inputs matters for home care users.
+SIG0134,AIP010,Competitive teardown,Escalate low confidence outputs,Negative,Low,72.3,Competitive teardown highlights that escalate low confidence outputs matters for home care users.
+SIG0135,AIP010,User interview,Escalate low confidence outputs,Mixed,High,75.8,User interview highlights that escalate low confidence outputs matters for home care users.
+SIG0136,AIP011,User interview,Ask consent before cross-app use,Mixed,Medium,64.6,User interview highlights that ask consent before cross-app use matters for travel and work users.
+SIG0137,AIP011,Support ticket cluster,Let users edit the plan,Request,Medium,87.0,Support ticket cluster highlights that let users edit the plan matters for travel and work users.
+SIG0138,AIP011,Competitive teardown,Ask consent before cross-app use,Mixed,Medium,83.9,Competitive teardown highlights that ask consent before cross-app use matters for travel and work users.
+SIG0139,AIP011,App store review theme,Ask consent before cross-app use,Positive,Medium,94.7,App store review theme highlights that ask consent before cross-app use matters for travel and work users.
+SIG0140,AIP011,In-app survey,Let users edit the plan,Positive,High,80.2,In-app survey highlights that let users edit the plan matters for travel and work users.
+SIG0141,AIP011,Support ticket cluster,Handle ambiguous inputs,Negative,Low,79.3,Support ticket cluster highlights that handle ambiguous inputs matters for travel and work users.
+SIG0142,AIP011,In-app survey,Instrument outcome quality,Positive,Low,64.3,In-app survey highlights that instrument outcome quality matters for travel and work users.
+SIG0143,AIP011,App store review theme,Handle ambiguous inputs,Request,High,88.7,App store review theme highlights that handle ambiguous inputs matters for travel and work users.
+SIG0144,AIP011,Support ticket cluster,Handle ambiguous inputs,Mixed,High,71.5,Support ticket cluster highlights that handle ambiguous inputs matters for travel and work users.
+SIG0145,AIP011,Support ticket cluster,Escalate low confidence outputs,Negative,Medium,86.8,Support ticket cluster highlights that escalate low confidence outputs matters for travel and work users.
+SIG0146,AIP011,Experiment note,Escalate low confidence outputs,Mixed,Low,84.2,Experiment note highlights that escalate low confidence outputs matters for travel and work users.
+SIG0147,AIP011,In-app survey,Ask consent before cross-app use,Negative,High,92.7,In-app survey highlights that ask consent before cross-app use matters for travel and work users.
+SIG0148,AIP012,Competitive teardown,Ask consent before cross-app use,Mixed,Low,86.5,Competitive teardown highlights that ask consent before cross-app use matters for small business creators.
+SIG0149,AIP012,User interview,Instrument outcome quality,Negative,High,72.2,User interview highlights that instrument outcome quality matters for small business creators.
+SIG0150,AIP012,Competitive teardown,Handle ambiguous inputs,Positive,Medium,71.8,Competitive teardown highlights that handle ambiguous inputs matters for small business creators.
+SIG0151,AIP012,User interview,Handle ambiguous inputs,Mixed,High,67.4,User interview highlights that handle ambiguous inputs matters for small business creators.
+SIG0152,AIP012,Support ticket cluster,Instrument outcome quality,Mixed,Low,64.2,Support ticket cluster highlights that instrument outcome quality matters for small business creators.
+SIG0153,AIP012,In-app survey,Handle ambiguous inputs,Mixed,Medium,81.5,In-app survey highlights that handle ambiguous inputs matters for small business creators.
+SIG0154,AIP012,In-app survey,Ask consent before cross-app use,Positive,Medium,85.2,In-app survey highlights that ask consent before cross-app use matters for small business creators.
+SIG0155,AIP012,In-app survey,Handle ambiguous inputs,Mixed,High,72.9,In-app survey highlights that handle ambiguous inputs matters for small business creators.
+SIG0156,AIP012,Experiment note,Ask consent before cross-app use,Mixed,Low,82.4,Experiment note highlights that ask consent before cross-app use matters for small business creators.

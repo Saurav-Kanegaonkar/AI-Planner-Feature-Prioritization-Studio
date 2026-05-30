@@ -1,0 +1,13 @@
+feature_id,data_sensitivity,consent_requirement,retention_policy,human_fallback,monitoring_plan,privacy_risk_score,launch_blocker,review_status
+AIP001,Moderate,Contextual notice,90 day rolling window,Low confidence outputs route to editable draft,"Weekly review of accuracy, escalation, latency, and opt out rate",55,No,Experiment ready
+AIP002,Moderate,Contextual notice,90 day rolling window,Low confidence outputs route to editable draft,"Weekly review of accuracy, escalation, latency, and opt out rate",48,No,PRD ready
+AIP003,High,Required,30 day rolling window,Low confidence outputs route to editable draft,"Weekly review of accuracy, escalation, latency, and opt out rate",74,No,Privacy review
+AIP004,Low,Contextual notice,90 day rolling window,Low confidence outputs route to editable draft,"Weekly review of accuracy, escalation, latency, and opt out rate",44,No,Experiment ready
+AIP005,High,Required,30 day rolling window,Low confidence outputs route to editable draft,"Weekly review of accuracy, escalation, latency, and opt out rate",68,No,Consent copy
+AIP006,High,Required,30 day rolling window,Low confidence outputs route to editable draft,"Weekly review of accuracy, escalation, latency, and opt out rate",88,Yes,Compliance review
+AIP007,Low,Contextual notice,90 day rolling window,Low confidence outputs route to editable draft,"Weekly review of accuracy, escalation, latency, and opt out rate",42,No,Experiment ready
+AIP008,Moderate,Required,90 day rolling window,Low confidence outputs route to editable draft,"Weekly review of accuracy, escalation, latency, and opt out rate",66,No,Content safety
+AIP009,High,Required,30 day rolling window,Low confidence outputs route to editable draft,"Weekly review of accuracy, escalation, latency, and opt out rate",92,Yes,Security review
+AIP010,Low,Contextual notice,90 day rolling window,Low confidence outputs route to editable draft,"Weekly review of accuracy, escalation, latency, and opt out rate",32,No,Model eval
+AIP011,Moderate,Required,90 day rolling window,Low confidence outputs route to editable draft,"Weekly review of accuracy, escalation, latency, and opt out rate",60,No,Consent copy
+AIP012,Moderate,Contextual notice,90 day rolling window,Low confidence outputs route to editable draft,"Weekly review of accuracy, escalation, latency, and opt out rate",52,No,Brand safety
